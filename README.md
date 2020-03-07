@@ -69,7 +69,9 @@ sudo docker stop <Container ID>
 ```
 - Hardware signal is sent to the process(primary process inside that container) --> sends <em>SIGTERM</em> (signal terminate). It tells to shut down on its own time. Lot of programming languages have an ability to listen to this signal in the code base. From this signal process like saving file, emit a message etc can be done.
 
-`sudo docker kill <Container ID>`
+```
+sudo docker kill <Container ID>
+```
 - Sends <em>SIGKILL</em> command. It means to shut down right now and you do not get to do any additional work.
 
 #### Execute an additional command in a container
