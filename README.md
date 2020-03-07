@@ -2,8 +2,9 @@
 
 #### Override the default script
 `sudo docker run busybox echo hi there`
+
 #### List of all file in Busybox Image
-`sudo docker run busybox ls`
+`sudo docker run busybox ls`<br/>
 Prints the filename existing on the container. The busy box image has default filesystem snapshot.
 Busybox image has default folder.
 When we create new container out of the image, we take the FS snapshot and stick it in as a folder in the container.
@@ -20,6 +21,7 @@ echo and ls commands work in the busybox and not in the hello-world image bcz th
 
 #### What is docker run?
 `docker run` = `docker create` + `docker start`
+![Flow Diagram 'docker run'](url)
 
 
  
