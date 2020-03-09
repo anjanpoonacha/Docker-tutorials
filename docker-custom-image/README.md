@@ -1,12 +1,12 @@
 # Creating a Custom Image
 
 #### Process and Flow  
-- ![Process]('/docker/1.png')
-- ![Flow]('/docker/2.png')
+- ![Process]('1.png')
+- ![Flow]('2.png')
 
 #### Dockerfile
-- ![Dockerfile]('/docker/3.png')
-- ![Dockerfile Teardown]('/docker/4.png')
+- ![Dockerfile]('3.png')
+- ![Dockerfile Teardown]('4.png')
 
 
 1.  `FROM` Specify the dock or image that we want to use as a base to run instruction 
@@ -24,12 +24,12 @@ docker build .
 3. `.` (build context) - set of files and folders that belongs to our project that we want to encapsulate or wrap in this container.
 
 #### Run command explained
-1. ![RUN command explained]('/docker/5.png')
-2. ![RUN command explained-2]('/docker/5_1.png')
+1. ![RUN command explained]('5.png')
+2. ![RUN command explained-2]('5_1.png')
 
 #### CMD command explained
-![CMD command explained]('/docker/6.png')
-![CMD command explained-2]('/docker/6_1.png')
+![CMD command explained]('6.png')
+![CMD command explained-2]('6_1.png')
 
 - `CMD` doesn't actually execute the command, but it sets as the primary command.
 
@@ -41,8 +41,8 @@ docker build .
 
 
 #### Tagging an Image (Rename)
-![Tagging an Image]('/docker/7.png')
-![Tagging an Image-2]('/docker/7_1.png')
+![Tagging an Image]('7.png')
+![Tagging an Image-2]('7_1.png')
 
 ```
 sudo docker build -t anjanpoonacha/project_name:latest .
