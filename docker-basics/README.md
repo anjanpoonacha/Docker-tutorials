@@ -14,7 +14,7 @@ Busybox image has default folder.
 When we create new container out of the image, we take the FS snapshot and stick it in as a folder in the container.
 echo and ls commands work in the busybox and not in the hello-world image bcz those programs only exist in the busybox
 
-- ![Flow Diagram 'docker run'](/1.png)
+- ![Flow Diagram 'docker run'](1.png)
 
 
 #### List of all running images
@@ -37,7 +37,7 @@ sudo docker run busybox ping google.com
 docker run = docker create + docker start
 ```
 
-- ![Flow Diagram 'docker run'](/2.png)
+- ![Flow Diagram 'docker run'](2.png)
 
 ##### More on docker run..
 
@@ -78,9 +78,9 @@ sudo docker kill <Container ID>
 ```
 docker exec -it <container id> <command>
 ```
-- ![Execute command](/4.png)
+- ![Execute command](4.png)
 
-- ![Execute command](/3.png)
+- ![Execute command](3.png)
 ``` 
 -it = -i + -t
 ``` 
